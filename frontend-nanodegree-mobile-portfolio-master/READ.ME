@@ -1,0 +1,46 @@
+
+READ.ME file for Website Optimization Project
+
+This was a really instructive, helpful and useful project to do. Thanks Cameron! I really enjoyed this one and learned a lot.
+
+My project is hosted at http://maryloucooke.com/udacity/index.html
+
+The optimizations for index.html include:
+
+Creating an .htaccess file on my server to compress files
+optimized the pizzeria.jpg and the profilepic.jpg
+minified html, js, and css files
+Used js to load css file to tame render blocking issue
+moved css to <style> tags in the head
+instructed analytics.js to load async
+Added media="print" to the print style sheet
+added missing div tag
+set up the server to cache jpg, png, css and js files
+
+The optimizations for pizza.html and main.js include:
+
+Line 507 - updated the updatePositions() function
+	Used scrollTop
+	Also changed to a faster access method
+
+Line 454 - updated the changePizzaSizes() function
+	Changed to document.getElementsByClassName() access method
+	Also pulled the variable declarations out of the for loop because they only needs to be done once
+
+optimized the pizza.png file
+
+
+Other resources I used were:
+github
+Udacity website Optimization class
+PageSpeedInsights
+Ilya's jank demo
+Udacity forums
+Udacity office hours about P4
+jscompress.com
+
+
+
+Question: On line 430 there is a TODO about setting up 3 different sizes - I went down this road for a while but couldn't get it to work - can you tell me what was meant by that comment?
+
+
